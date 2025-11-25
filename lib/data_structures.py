@@ -15,3 +15,10 @@ spicy_foods = [
         "heat_level": 6,
     },
 ]
+
+def get_names(spicy_foods):
+    pass
+    """Return a list of names of all spicy foods."""
+    return [food["name"] for food in spicy_foods]
+
+
