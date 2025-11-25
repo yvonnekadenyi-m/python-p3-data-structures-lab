@@ -14,3 +14,4 @@ spicy_foods = [
         "cuisine": "Sichuan",
         "heat_level": 6,
     },
+]
