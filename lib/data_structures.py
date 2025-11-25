@@ -37,3 +37,18 @@ def print_spicy_foods(spicy_foods):
         print(f'{food["name"]} ({food["cuisine"]}) | Heat Level: {"🌶" * food["heat_level"]}')
 
 
+def get_spicy_food_by_cuisine(spicy_foods, cuisine):
+    pass
+    """Return the dictionary for the spicy food matching the given cuisine."""
+    for food in spicy_foods:
+        if food["cuisine"] == cuisine:
+            return food
+
+def print_spiciest_foods(spicy_foods):
+    pass
+    """Print only the spicy foods (heat > 5) using print_spicy_foods() style."""
+    spiciest = get_spiciest_foods(spicy_foods)
+    for food in spiciest:
+        print(f'{food["name"]} ({food["cuisine"]}) | Heat Level: {"🌶" * food["heat_level"]}')
+
+
