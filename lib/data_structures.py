@@ -28,3 +28,12 @@ def get_spiciest_foods(spicy_foods):
     return [food for food in spicy_foods if food["heat_level"] > 5]
 
 
+def print_spicy_foods(spicy_foods):
+    pass
+    """Print each food in the format:
+    Name (Cuisine) | Heat Level: 🌶🌶🌶...
+    """
+    for food in spicy_foods:
+        print(f'{food["name"]} ({food["cuisine"]}) | Heat Level: {"🌶" * food["heat_level"]}')
+
+
